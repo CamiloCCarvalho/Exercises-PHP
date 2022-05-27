@@ -1,5 +1,6 @@
-# exercise-01
+# solve-me First
     Complete the function solveMeFirst to compute the sum of two integers.
+
 
 # Example
     a = 7
@@ -7,9 +8,11 @@
 
     Return 10.
 
+
 # Function Description
 
     Complete the solveMeFirst function in the editor below.
+
 
 # solveMeFirst has the following parameters:
 
