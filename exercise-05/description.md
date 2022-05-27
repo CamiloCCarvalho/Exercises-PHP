@@ -12,7 +12,7 @@
 The left-to-right diagonal 1+5+9 = 15.
 
  The right to left diagonal 3+5+9 = 17.
- 
+
   Their absolute difference is |15 - 17| = 2.
 
 
@@ -68,11 +68,11 @@ Return the absolute difference between the sums of the matrix's two diagonals as
 
 The primary diagonal is:
 
-11
+    11
 
-   5
+        5
 
-     -12
+            -12
 
 
 Sum across the primary diagonal: 11 + 5 - 12 = 4
