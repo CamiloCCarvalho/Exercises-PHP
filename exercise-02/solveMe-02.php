@@ -8,7 +8,11 @@
  */
 
 function simpleArraySum($ar) {
-    //write your code here.
+    $result = null;
+    for($i=0; $i<count($ar); $i++):
+        $result += $ar[$i];
+    endfor;
+    return $result;
 
 }
 
