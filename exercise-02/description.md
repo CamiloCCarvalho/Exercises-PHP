@@ -7,6 +7,7 @@
 
 Complete the simpleArraySum function in the editor below. It must return the sum of the array elements as an integer.
 simpleArraySum has the following parameter(s):
+
     ar: an array of integers
     Input Format
 
@@ -15,6 +16,7 @@ The second line contains  space-separated integers representing the array's elem
 
 
 # Constraints
+
     0 < n,ar[i] <= 1000
 
 
