@@ -2,18 +2,18 @@
 
 # For example, the square matrix  is shown below:
 
-1 2 3
+    1 2 3
 
-4 5 6
+    4 5 6
 
-9 8 9
+    9 8 9
 
 
-The left-to-right diagonal 1+5+9 = 15.
+    The left-to-right diagonal 1+5+9 = 15.
 
- The right to left diagonal 3+5+9 = 17.
+    The right to left diagonal 3+5+9 = 17.
 
-  Their absolute difference is |15 - 17| = 2.
+    Their absolute difference is |15 - 17| = 2.
 
 
 # Function description
@@ -23,12 +23,12 @@ Complete the diagonalDifference function in the editor below.
 
 # diagonalDifference takes the following parameter:
 
-int arr[n][m]: an array of integers
+    int arr[n][m]: an array of integers
 
 
 # Return
 
-int: the absolute diagonal difference
+    int: the absolute diagonal difference
 
 
 # Input Format
@@ -40,23 +40,23 @@ Each of the next (n) lines describes a row arr[i], and consists of (n) space-sep
 
 # Constraints
 
- -100 <= arr[i][j] <= 100
+    -100 <= arr[i][j] <= 100
 
 
 # Output Format
 
-Return the absolute difference between the sums of the matrix's two diagonals as a single integer.
+    Return the absolute difference between the sums of the matrix's two diagonals as a single integer.
 
 
 # Sample Input
 
-3
+    3
 
-11 2 4
+    11 2  4
 
-4 5 6
+     4 5  6
 
-10 8 -12
+    10 8 -12
 
 
 # Sample Output
@@ -79,15 +79,15 @@ Sum across the primary diagonal: 11 + 5 - 12 = 4
 
 The secondary diagonal is:
 
-     4
+            4
 
-   5
+        5
 
-10
+    10
 
 
 Sum across the secondary diagonal: 4 + 5 + 10 = 19
 
-Difference: |4 - 19| = 15
+    Difference: |4 - 19| = 15
 
 # Note: |x| is the absolute value of x
