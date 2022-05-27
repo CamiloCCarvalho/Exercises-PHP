@@ -41,11 +41,13 @@ The second line contains 3 space-separated integers, b[0], b[1], and b[2], the r
 Constraints
 
 1 ≤ a[i] ≤ 100
+
 1 ≤ b[i] ≤ 100
 
 # Sample Input 0
 
 5 6 7
+
 3 6 10
 
 # Sample Output 0
@@ -57,18 +59,23 @@ Explanation 0
 # In this example:
 
  - a = (a[0], a[1], a[2]) = (5,6,7)
+
  - b = (b[0], b[1], b[2]) = (3,6,10)
 
 # Now, let's compare each individual score:
 
 a[0]>b[0] , so Alice receives  point.
+
 a[1]==b[1] , so nobody receives a point.
+
 a[2]>b[2] , so Bob receives  point.
+
 Alice's comparison score is 1, and Bob's comparison score is 1. Thus, we return the array [1,1].
 
 # Sample Input 1
 
 [17 28 30]
+
 [99 16 8]
 
 # Sample Output 1
