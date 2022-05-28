@@ -72,6 +72,6 @@ Print the following 3 lines, each to 6 decimals:
 
 # Explanation
 
-    There are  positive numbers,  negative numbers, and  zero in the array.
-    
-T   he proportions of occurrence are positive: , negative:  and zeros: .
+There are  positive numbers,  negative numbers, and  zero in the array.
+
+The proportions of occurrence are positive: , negative:  and zeros: .
