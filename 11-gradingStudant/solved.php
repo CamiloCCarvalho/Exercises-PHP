@@ -10,14 +10,15 @@
 function gradingStudents($grades) {
     
     for($i=0; $i<count($grades); $i++):
-        if($grades[$i] > 35 && $grades[$i]%5 == 3){
+        if($grades[$i] >= 38 && $grades[$i]%5 == 3){
                 $grades[$i] += 2;
             }
-            elseif($grades[$i]%5 == 4){
+            elseif($grades[$i] >= 38 && $grades[$i]%5 == 4){
                 $grades[$i] += 1;
             }
     endfor;
     return $grades;
+
 }
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
