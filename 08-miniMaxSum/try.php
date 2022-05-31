@@ -11,6 +11,7 @@ function miniMaxSum($arr) {
     // Write your code here
 
 }
+// ____Ignore the code below, it is necessary to run in site hackerRank____
 
 $arr_temp = rtrim(fgets(STDIN));
 

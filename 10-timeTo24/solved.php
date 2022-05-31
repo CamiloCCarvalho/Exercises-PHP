@@ -13,6 +13,7 @@ function timeConversion($s) {
     return date("H:i:s", $time);
 
 }
+// ____Ignore the code below, it is necessary to run in site hackerRank____
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
 

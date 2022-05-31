@@ -4,7 +4,9 @@ function solveMeFirst($a,$b){
 
     // Write your code here
     // Hint: type return $a + $b
+    
 }
+// ____Ignore the code below, it is necessary to run in site hackerRank____
 
 $handle = fopen ("php://stdin","r");
 $_a = fgets($handle);

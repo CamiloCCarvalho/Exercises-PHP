@@ -20,6 +20,7 @@ function miniMaxSum($arr) {
         echo ($min ." " .$max);
         
 }
+// ____Ignore the code below, it is necessary to run in site hackerRank____
 
 $arr_temp = rtrim(fgets(STDIN));
 

@@ -12,6 +12,7 @@ function timeConversion($s) {
     // Write your code here.
 
 }
+// ____Ignore the code below, it is necessary to run in site hackerRank____
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
 

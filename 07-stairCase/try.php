@@ -10,6 +10,7 @@ function staircase($n) {
     // Write your code here
 
 }
+// ____Ignore the code below, it is necessary to run in site hackerRank____
 
 $n = intval(trim(fgets(STDIN)));
 

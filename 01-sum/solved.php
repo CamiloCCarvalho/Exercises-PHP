@@ -7,6 +7,7 @@ function solveMeFirst($a,$b){
     //my better
     return $a + $b;
 }
+// ____Ignore the code below, it is necessary to run in site hackerRank____
 
 $handle = fopen ("php://stdin","r");
 $_a = fgets($handle);

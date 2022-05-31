@@ -20,6 +20,7 @@ function gradingStudents($grades) {
     return $grades;
 
 }
+// ____Ignore the code below, it is necessary to run in site hackerRank____
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
