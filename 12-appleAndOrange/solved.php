@@ -13,10 +13,22 @@
  */
 
 function countApplesAndOranges($s, $t, $a, $b, $apples, $oranges) {
-
     
-    // Write your code here
-
+    $na = 0;
+    $no = 0;
+    
+    for($i=0; $i < count($apples); $i++):
+        if($a+$apples[$i] >= $s && $a+$apples[$i] <= $t){
+            $na++;
+        }
+    endfor;
+    for($j=0; $j < count($oranges); $j++):
+        if($b+$oranges[$j] <= $t && $b+$oranges[$j] >= $s){
+            $no++;
+        }
+    endfor;
+    echo ($na ."\n");
+    echo ($no);
 }
 
 
