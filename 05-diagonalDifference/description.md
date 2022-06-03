@@ -33,9 +33,9 @@ Complete the diagonalDifference function in the editor below.
 
 # Input Format
 
-The first line contains a single integer (n) the number of rows and columns in the square matrix (arr).
+The first line contains a single integer *n* the number of rows and columns in the square matrix *(arr)*.
 
-Each of the next (n) lines describes a row arr[i], and consists of (n) space-separated integers arr[i][j].
+Each of the next *n* lines describes a row **arr[i]**, and consists of *n* space-separated integers **arr[i][j]**.
 
 
 # Constraints
@@ -90,4 +90,4 @@ Sum across the secondary diagonal: 4 + 5 + 10 = 19
 
     Difference: |4 - 19| = 15
 
-# Note: |x| is the absolute value of x
+*Note: |x| is the absolute value of **x***

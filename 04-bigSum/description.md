@@ -53,4 +53,4 @@ Complete the aVeryBigSum function in the editor below. It must return the sum of
 
     (-2³¹) to (2³¹-1) or [-2147483648, 2147483647].
 
-When we add several integer values, the resulting sum might exceed the above range. You might need to use long int C/C++/Java to store such sums.
+When we add several integer values, the resulting sum might exceed the above range. *You might need to use long int C/C++/Java to store such sums*.

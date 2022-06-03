@@ -2,7 +2,7 @@
 
 Every student receives a GRADE in the inclusive range from 0 to 100.
 
-Any  grade less than 40 is a failing grade.
+Any  grade *less than 40* is a failing grade.
 
 Sam is a professor at the university and likes to round each student's grade according to these rules:
 
@@ -39,15 +39,15 @@ gradingStudents has the following parameter(s):
 
 # Input Format
 
-The first line contains a single integer, , the number of students.
+The first line contains a single integer *n*, the number of students.
 
-Each line  of the  subsequent lines contains a single integer, .
+Each line of the subsequent lines contains a single integer *n*.
 
 # Constraints
 
- 1<= n <= 60
+    1<= n <= 60
 
- 0 <= grades[i] <= 100
+    0 <= grades[i] <= 100
 
 
 # Sample Input

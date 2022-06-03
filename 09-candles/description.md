@@ -5,7 +5,7 @@ You are in charge of the cake for a child's birthday. You have decided the cake 
     candles = [4, 4, 1, 3]
 
 
-The maximum height candles are 4 units high. There are 2 of them, so return 2.
+The maximum height candles are *4* units high. There are *2* of them, so return *2*.
 
 
 # Function Description
@@ -14,7 +14,7 @@ Complete the function birthdayCakeCandles in the editor below.
 
 birthdayCakeCandles has the following parameter(s):
 
-int candles[n]: the candle heights
+**int candles[n]**: the candle heights
 
 
 # Returns
@@ -24,9 +24,9 @@ int candles[n]: the candle heights
 
 # Input Format
 
-The first line contains a single integer (n), the size of candles[].
+The first line contains a single integer *n*, the size of **candles[]**.
 
-The second line contains (n) space-separated integers, where each integer  describes the height of candles[i].
+The second line contains *n* space-separated integers, where each integer  describes the height of **candles[i]**.
 
 
 # Constraints
@@ -48,4 +48,4 @@ The second line contains (n) space-separated integers, where each integer  descr
 
 # Explanation 
 
-Candle heights are [3, 2, 1, 3]. The tallest candles are 3 units, and there are 2 of them.
+Candle heights are **[3, 2, 1, 3]**. The tallest candles are *3 units*, and there are *2* of them.

@@ -1,6 +1,6 @@
 # Given an array of integers, find the sum of its elements.
 
-    For example, if the array ar = [1,2,3] -> 1.2.3=6 so return 6.
+For example, if the array **ar = [1,2,3]** -> 1.2.3 = 6 so return 6.
 
 
 # Function Description
@@ -14,14 +14,14 @@ simpleArraySum has the following parameter(s):
 
 # Input Format
 
-The first line contains an integer, , denoting the size of the array.
+The first line contains an integer **n**, denoting the size of the array.
 
-The second line contains  space-separated integers representing the array's elements.
+The second line contains **n** space-separated integers representing the array's elements.
 
 
 # Constraints
 
-    0 < n,ar[i] <= 1000
+    0 < n, ar[i] <= 1000
 
 
 # Output Format
