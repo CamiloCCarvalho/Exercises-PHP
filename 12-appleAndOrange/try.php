@@ -13,9 +13,11 @@
  */
 
 function countApplesAndOranges($s, $t, $a, $b, $apples, $oranges) {
+    
     // Write your code here
 
 }
+
 // ____Ignore the code below, it is necessary to run in site hackerRank____
 
 $first_multiple_input = explode(' ', rtrim(fgets(STDIN)));
