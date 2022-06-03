@@ -8,7 +8,7 @@ Sam's house has an apple tree and an orange tree that yield an abundance of frui
 
 - Assume the trees are located on a single point, where the apple tree is at point **a**, and the orange tree is at point **b**.
 
-- When a fruit falls from its tree, it lands **d** units of distance from its tree of origin along the **__x__**-axis. *A negative value of  means the fruit fell  units to the tree's left, and a positive value of  means it falls  units to the tree's right. *
+- When a fruit falls from its tree, it lands **d** units of distance from its tree of origin along the **x**-axis. A negative value of  means the fruit fell  units to the tree's left, and a positive value of  means it falls  units to the tree's right.
 
 ![alt text](rsc/appleAndOrange.png)
 
@@ -19,7 +19,8 @@ For example, Sam's house is between **s = 7** and **t = 10**. The apple tree is 
 
 There are **m = 3** apples and **n = 3** oranges. Apples are thrown **__apples = [2,3-4]__** units distance from **a**, and **__oranges = [3,-2-4]__** units distance. 
 
-Adding each apple distance to the position of the tree, they land at **[4+2,4+3,4+(-4)] = [6,7,0]**. Oranges land at **[12+3,12+(-2),12+(-4)] = [15,10,8]**. One apple and two oranges land in the inclusive range **7-10** so we print
+Adding each apple distance to the position of the tree, they land at **[4+2,4+3,4+(-4)] = [6,7,0]**. 
+Oranges land at **[12+3,12+(-2),12+(-4)] = [15,10,8]**. One apple and two oranges land in the inclusive range **7-10** so we print
 
     1
     2
