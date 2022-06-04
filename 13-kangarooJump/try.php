@@ -13,30 +13,10 @@
 
 function kangaroo($x1, $v1, $x2, $v2) {
     
-    $pk1 = $x1 + $v1;
-    $pk2 = $x2 + $v2;
-    $firstGap = null;
-    $secondGap = null;
-    
-    if($pk1 > $pk2){
-        $firstGap = $pk1-$pk2;
-        $secondGap = ($pk1 += $v1) - ($pk2 += $v2);
-    }else{
-        $firstGap = $pk2-$pk1;
-        $secondGap = ($pk2 += $v2) - ($pk1 += $v1);
-    }
-    
-    if($secondGap >= $firstGap){
-        return "NO";
-    }else{
-        $t = $secondGap - $firstGap;
-        if($secondGap%$t == 0){
-            return "YES";
-        }else{
-            return "NO";
-        }
-    }
+    // Write your code here
 }
+
+// Ignore the code below, it's used to run at HackerHank site
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
 

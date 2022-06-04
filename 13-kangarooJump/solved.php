@@ -38,6 +38,8 @@ function kangaroo($x1, $v1, $x2, $v2) {
     }
 }
 
+// Ignore the code below, it's used to run at HackerHank site
+
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
 $first_multiple_input = explode(' ', rtrim(fgets(STDIN)));
