@@ -10,12 +10,16 @@
  *  3. INTEGER_ARRAY ar
  */
 
+// Ignore the code above, it used to run at site HackerRank
+
 function divisibleSumPairs($n, $k, $ar) {
     
     
     // Write your code here
 
 }
+
+// Ignore the code below, it used to run at site HackerRank
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
