@@ -19,7 +19,6 @@ Complete the divisibleSumPairs function in the editor below.
 - int ar[n]: an array of integers
 - int k: the integer divisor
 
-
 ## Returns
 
     int: the number of pairs
