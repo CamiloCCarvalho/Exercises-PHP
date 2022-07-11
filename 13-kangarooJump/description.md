@@ -57,7 +57,7 @@ A single line of four space-separated integers denoting the respective values of
 
 The two kangaroos jump through the following sequence of locations:
 
-image
+<img src="/" alt="kangaroo imagem exemple"/>
 
 
 From the image, it is clear that the kangaroos meet at the same location *(number 12 on the number line)* after same number of jumps *(4 jumps)*, and we print YES.
