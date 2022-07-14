@@ -1,6 +1,8 @@
- <h1 align="center">Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.</h1>
- 
-  
+ <h1 align="center">Time Conversion</h1>
+
+ # Given a time in 12-hour AM/PM format, convert it to military (24-hour) time.
+
+
 **Note:** 
     
     - 12:00:00AM on a 12-hour clock is 00:00:00 on a 24-hour clock.
@@ -36,11 +38,11 @@ timeConversion has the following parameter(s):
 
 # Input Format
 
-A single string  that represents a time in -hour clock format (i.e.:  or ).
+A single string *s* that represents a time in **12-hour** clock format (i.e.:*hh:mm:ssAM*  or *hh:mm:ssPM*).
 
 # Constraints
 
-All input times are vali
+All input times are valid
 
 # Sample Input 
 
