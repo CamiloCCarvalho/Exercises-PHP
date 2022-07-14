@@ -1,3 +1,5 @@
+<h1 align="center">Grading Student</h1> 
+
 # HackerLand University has the following grading policy:
 
 Every student receives a GRADE in the inclusive range from 0 to 100.
