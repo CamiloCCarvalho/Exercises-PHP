@@ -1,3 +1,6 @@
+<h1 align="center">Min_Max_Sum</h1>
+
+
 Given five positive integers, find the minimum and maximum values that can be calculated by summing exactly four of the five integers. Then print the respective minimum and maximum values as a single line of two space-separated long integers.
 
 # Example
@@ -8,21 +11,21 @@ The minimum sum is *1+3+5+7 = 16*.
     
 And the maximum sum is *3+5+7+9 = 24*.
     
-The function prints:
+## The function prints:
 
     16 24
 
 
-# Function Description
+## Function Description
 
 Complete the miniMaxSum function in the editor below.
 
-miniMaxSum has the following parameter(s):
+## miniMaxSum has the following parameter(s):
 
     arr: an array of 5 integers
 
 
-# Print
+## Print
 
     Print two space-separated integers on one line: the minimum sum and the maximum sum of 4 of 5 elements.
 
@@ -64,4 +67,4 @@ The numbers are *1, 2, 3, 4, and 5*. Calculate the following sums using four of 
 
     Sum everything except 5, the sum is 1+2+3+4 = 10.
 
-Hints: Beware of integer overflow! ***Use 64-bit Integer***.
+### Hints: Beware of integer overflow! ***Use 64-bit Integer***.
