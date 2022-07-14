@@ -14,8 +14,15 @@
 
 function divisibleSumPairs($n, $k, $ar) {
     
-    
-    // Write your code here
+    $res = 0;
+    for($i =0; $i<count($ar); $i++):
+        for($j =$i+1; $j<count($ar); $j++):
+            if(($ar[$i]+$ar[$j])% $k == 0){
+                $res++;
+            }
+        endfor;
+    endfor;
+    return $res;
 
 }
 
