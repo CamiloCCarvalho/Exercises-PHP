@@ -1,26 +1,4 @@
-'use strict';
-
-const fs = require('fs');
-
-process.stdin.resume();
-process.stdin.setEncoding('utf-8');
-
-let inputString = '';
-let currentLine = 0;
-
-process.stdin.on('data', function(inputStdin) {
-    inputString += inputStdin;
-});
-
-process.stdin.on('end', function() {
-    inputString = inputString.split('\n');
-
-    main();
-});
-
-function readLine() {
-    return inputString[currentLine++];
-}
+<?php
 
 /*
  * Complete the 'breakingRecords' function below.
@@ -29,25 +7,24 @@ function readLine() {
  * The function accepts INTEGER_ARRAY scores as parameter.
  */
 
-// Ignore the code below, it's used to run at site HackerRank
-
-function breakingRecords(scores) {
+//Igone the code above, it's used to run at site hackerrank
+function breakingRecords($scores) {
     
-    // Write your code here
+    //Write your code here
+
 }
+//Igone the code below, it's used to run at site hackerrank
 
-// Ignore the code below, it's used to run at site HackerRank
+$fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
-function main() {
-    const ws = fs.createWriteStream(process.env.OUTPUT_PATH);
+$n = intval(trim(fgets(STDIN)));
 
-    const n = parseInt(readLine().trim(), 10);
+$scores_temp = rtrim(fgets(STDIN));
 
-    const scores = readLine().replace(/\s+$/g, '').split(' ').map(scoresTemp => parseInt(scoresTemp, 10));
+$scores = array_map('intval', preg_split('/ /', $scores_temp, -1, PREG_SPLIT_NO_EMPTY));
 
-    const result = breakingRecords(scores);
+$result = breakingRecords($scores);
 
-    ws.write(result.join(' ') + '\n');
+fwrite($fptr, implode(" ", $result) . "\n");
 
-    ws.end();
-}
+fclose($fptr);
