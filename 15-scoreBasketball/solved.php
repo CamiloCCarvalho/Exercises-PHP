@@ -10,8 +10,8 @@
 //Igone the code above, it's used to run at site hackerrank
 function breakingRecords($scores) {
     
-    $min;
-    $max;
+    $min = null;
+    $max = null;
     $ar = [0, 0];
     for($i =0; $i<count($scores); $i++):
         if($i == 0){
