@@ -1,4 +1,4 @@
-# CompareTriplets
+<h1 align="center">CompareTriplets</h1>
 
 Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from 1 to 100 for three categories: problem clarity, originality, and difficulty.
 
@@ -17,7 +17,7 @@ Comparison points is the total points a person earned.
 Given a and b, determine their respective comparison points.
 
 
-# Example
+## Example
 
     a = [1, 2, 3]
 
@@ -33,7 +33,7 @@ Finally, for elements 2, **a[2] > b[2]** so Alice receives a point.
 The return array is **[1, 1]** with Alice's score first and Bob's second.
 
 
-# Function Description
+## Function Description
 
 Complete the function compareTriplets in the editor below.
 compareTriplets has the following parameter(s):
@@ -43,43 +43,43 @@ compareTriplets has the following parameter(s):
     int b[3]: Bob's challenge rating
 
 
-# Return
+## Return
 
 **int[2]**: Alice's score is in the first position, and Bob's score is in the second.
 
 
-# Input Format
+## Input Format
 
 The first line contains 3 space-separated integers, **a[0], a[1], and a[2]**, the respective values in triplet a.
 The second line contains 3 space-separated integers, **b[0], b[1], and b[2]**, the respective values in triplet b.
 
-# Constraints
+## Constraints
 
     1 ≤ a[i] ≤ 100
 
     1 ≤ b[i] ≤ 100
 
 
-# Sample Input 0
+## Sample Input 0
 
     a [5 6 7]
 
     b [3 6 10]
 
 
-# Sample Output 0
+## Sample Output 0
 
     result [1 1]
 
 
-# In this example:
+## In this example:
 
     - a = (a[0], a[1], a[2]) = (5,6,7)
 
     - b = (b[0], b[1], b[2]) = (3,6,10)
 
 
-# Now, let's compare each individual score:
+## Now, let's compare each individual score:
 
     a[0]>b[0] , so Alice receives  point.
 
@@ -90,19 +90,19 @@ The second line contains 3 space-separated integers, **b[0], b[1], and b[2]**, t
 Alice's comparison score is 1, and Bob's comparison score is 1. Thus, we return the **array [1,1]**.
 
 
-# Sample Input 1
+## Sample Input 1
 
     a [17 28 30]
 
     b [99 16 8]
 
 
-# Sample Output 1
+## Sample Output 1
 
     result [2 1]
 
 
-# Explanation 1
+## Explanation 1
 
 Comparing the 0 elements, *17<99* so Bob receives a point.
 
