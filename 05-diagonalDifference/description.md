@@ -1,6 +1,7 @@
-# Given a square matrix, calculate the absolute difference between the sums of its diagonals.
+<h1 align="center">Given a square matrix, calculate the absolute difference between the sums of its diagonals.</h1>
 
-# For example, the square matrix  is shown below:
+
+## For example, the square matrix  is shown below:
 
     1 2 3
 
@@ -16,39 +17,39 @@
     Their absolute difference is |15 - 17| = 2.
 
 
-# Function description
+## Function description
 
 Complete the diagonalDifference function in the editor below.
 
 
-# diagonalDifference takes the following parameter:
+## diagonalDifference takes the following parameter:
 
     int arr[n][m]: an array of integers
 
 
-# Return
+## Return
 
     int: the absolute diagonal difference
 
 
-# Input Format
+## Input Format
 
 The first line contains a single integer *n* the number of rows and columns in the square matrix *(arr)*.
 
 Each of the next *n* lines describes a row **arr[i]**, and consists of *n* space-separated integers **arr[i][j]**.
 
 
-# Constraints
+## Constraints
 
     -100 <= arr[i][j] <= 100
 
 
-# Output Format
+## Output Format
 
     Return the absolute difference between the sums of the matrix's two diagonals as a single integer.
 
 
-# Sample Input
+## Sample Input
 
     3
 
@@ -59,12 +60,12 @@ Each of the next *n* lines describes a row **arr[i]**, and consists of *n* space
     10 8 -12
 
 
-# Sample Output
+## Sample Output
 
 15
 
 
-# Explanation
+## Explanation
 
 The primary diagonal is:
 
