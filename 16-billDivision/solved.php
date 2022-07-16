@@ -10,9 +10,17 @@
  */
 //Ignore the code above, it's used to run at site hackerrank
 function bonAppetit($bill, $k, $b) {
-    
-    
-
+    array_splice($bill, $k, 1);
+    $sum = 0;
+    for($i = 0; $i < count($bill); $i++):
+        $sum += $bill[$i];
+    endfor;
+    $result = $b - ($sum/2);
+    if($result != 0){
+        echo $result;  
+    }else{
+        echo 'Bon Appetit';
+    };
 }
 //Ignore the code below, it's used to run at site hackerrank
 
