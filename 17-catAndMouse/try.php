@@ -2,18 +2,11 @@
 
 // Ignore the code above, it's used to run at site hackerrank
 function catAndMouse($x, $y, $z) {
-    $catAtoMouse = abs($z - $x);
-    $catBtoMouse = abs($z - $y);
-    if($catAtoMouse === $catBtoMouse){
-        return "Mouse C";
-    }elseif($catAtoMouse > $catBtoMouse){
-        return "Cat B";
-    }else {
-        return "Cat A";
-    }
+    
+    // Write your code here
 
 }
-// Ignore the code above, it's used to run at site hackerrank
+// Ignore the code below, it's used to run at site hackerrank
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
