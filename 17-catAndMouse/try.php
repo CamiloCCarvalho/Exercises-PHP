@@ -13,6 +13,7 @@ function catAndMouse($x, $y, $z) {
     }
 
 }
+// Ignore the code above, it's used to run at site hackerrank
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
