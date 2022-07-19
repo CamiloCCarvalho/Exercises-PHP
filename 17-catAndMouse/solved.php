@@ -1,6 +1,6 @@
 <?php
 
-// Complete the catAndMouse function below.
+// Ignore the code above, it's used to run at site hackerrank
 function catAndMouse($x, $y, $z) {
     $catAtoMouse = abs($z - $x);
     $catBtoMouse = abs($z - $y);
@@ -13,6 +13,7 @@ function catAndMouse($x, $y, $z) {
     }
 
 }
+// Ignore the code below, it's used to run at site hackerrank
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
 
