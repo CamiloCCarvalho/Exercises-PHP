@@ -13,7 +13,7 @@ Sam is a professor at the university and likes to round each student's grade acc
     If the value of grade is less than 38, no rounding occurs as the result will still be a failing grade.
 
 
-# Examples
+## Examples
 
 - grade = 84 round to 85 (85 - 84 is less than 3)
 
@@ -25,7 +25,7 @@ Sam is a professor at the university and likes to round each student's grade acc
 Given the initial value of grade for each of Sam's  students, write code to automate the rounding process.
 
 
-# Function Description
+## Function Description
 
 Complete the function gradingStudents in the editor below.
 
@@ -34,25 +34,25 @@ gradingStudents has the following parameter(s):
     int grades[n]: the grades before rounding
 
 
-# Returns
+## Returns
 
-    int[n]: the grades after rounding as appropriate
+     int[n]: the grades after rounding as appropriate
 
 
-# Input Format
+## Input Format
 
 The first line contains a single integer *n*, the number of students.
 
 Each line of the subsequent lines contains a single integer *n*.
 
-# Constraints
+## Constraints
 
     1<= n <= 60
 
     0 <= grades[i] <= 100
 
 
-# Sample Input
+## Sample Input
 
     4
 
@@ -65,7 +65,7 @@ Each line of the subsequent lines contains a single integer *n*.
      33
 
 
-# Sample Output
+## Sample Output
 
     75
 
@@ -76,7 +76,7 @@ Each line of the subsequent lines contains a single integer *n*.
     33
 
 
-# Explanation
+## Explanation
 
     ID | Original Grade | Final Grade
 
