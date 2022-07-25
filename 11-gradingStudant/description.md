@@ -89,6 +89,8 @@ Each line of the subsequent lines contains a single integer *n*.
     4          33           33
 
 
+![alt text](url:rsc/table.png)
+
 
 1. Student 1 received a 73, and the next multiple of 5 from 73 is 75. Since 75-73 < 3, the student's grade is rounded to 75.
 
